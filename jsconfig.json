@@ -1,0 +1,6 @@
+{ // having this array, we do not need: <reference types="Cypress"
+    "include": [
+    "./node_modules/cypress",
+    "cypress/**/*.js"
+    ]
+}
