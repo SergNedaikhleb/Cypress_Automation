@@ -15,6 +15,7 @@ describe('API Testing', function(){
         .its('body')
         .its('data')
  //       .should('deep.eq', item)
+ //       .should('deep.eq', item)
         .should('include', {name:'test'})
     })
 
